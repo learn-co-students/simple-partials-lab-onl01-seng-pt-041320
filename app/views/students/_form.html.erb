@@ -1,0 +1,15 @@
+<h1>Update Student<h1><br>
+<h1>Create Student<h1><br>
+<p>
+  <label>Student Title</label><br>
+  <%= text_area_tag :name, @student.name %><br>
+</p>
+<p>
+  <label>Student Hometown</label><br>
+  <%= text_area_tag :hometown, @student.hometown %><br>
+</p>
+<p>
+  <label>Student Birthday</label><br>
+  <%= text_area_tag :birthday, @student.birthday %><br>
+</p>
+  <%= submit_tag "Submit Post" %>
